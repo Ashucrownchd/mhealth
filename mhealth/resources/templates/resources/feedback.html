@@ -1,0 +1,23 @@
+{% extends 'resources/base.html' %}
+{% load static %}
+{% block content %}
+
+<div class="banner_sec">
+    <img src="{% static 'index.jpg' %}" alt=""
+    width="1200" height="400" />
+    <div class="heading-main">
+        <h1>Feedback</h1>
+    </div>
+</div>
+    <div class="form_sec">
+        <div class="container">
+            <div class="row">
+                <div class="co-md-12">
+                    <iframe
+                        src="https://docs.google.com/forms/d/e/1FAIpQLScPmKKfoM2hjI_tFK6UpoqkYrrBss2rzO-tPq9AWQevZLxMMg/viewform?embedded=true"
+                        width="640" height="955" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
